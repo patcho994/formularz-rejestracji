@@ -7,9 +7,16 @@
     <link rel="stylesheet" href="rejestracja.css">
 </head>
 <body>
-    <h1>
-        Rejestracja
-    </h1>
+    <section class="container">
+        <div id="errors" class="errors">
+        </div>
+        <form action="proces_rejestracji.php" method="post" class="formularz-rejestracji">
+            <div class="form-group">
+                <label for="username">Nazwa użytkownika:</label>
+                <input type="text" id="username" name="username" placeholder="jankowalski32" required/>
+            </div>
+        </form>
+    </section>
     
 </body>
 </html>
