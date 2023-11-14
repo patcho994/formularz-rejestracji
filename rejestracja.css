@@ -13,6 +13,7 @@ body {
     padding: 40px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    /* width: 400px; */
 }
 
 .form-group {
@@ -22,4 +23,24 @@ body {
 .form-group label {
     display: block;
     margin-bottom: 5px;
+}
+
+.form-group input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    /* width: 100%; */
+}
+
+.submit-button {
+    background-color: #0373fcbc;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #0373fc;
 }
